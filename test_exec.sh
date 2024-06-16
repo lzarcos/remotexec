@@ -1,11 +1,11 @@
 #!/bin/bash
 #
-# curl -s http://mywebsite.example/myscript.txt | bash -s --
-# curl -s http://server/path/script.sh | bash -s arg1 arg2
+# Executing script remotetly:
 #
+# curl -sL https://github.com/lzarcos/remotexec/raw/main/test_exec.sh|bash
+# 
 ###################################################
 #
-
 echo "## TEST Remote execution ..."
 echo ""
 echo "==>Hostname: $(hostname)"
